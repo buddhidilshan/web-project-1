@@ -1,0 +1,47 @@
+*{margin: 0; padding: 0;}
+*{text-decoration: none;}
+.clearfix{overflow: auto;}
+.wrapper{
+    margin: 0 auto;
+    width: 1000px; ;
+}
+
+.top-bar{
+    margin: 0 auto;
+    width: 1000px;
+    background: rgb(206, 218, 206);
+}
+.top-bar-links{
+    float: left;
+
+}
+.top-bar-links ul {
+    margin: 15px;
+    list-style: none;
+
+}
+.top-bar-links ul li {
+    padding: 0 10px;
+    display: inline-block;
+    border-right: 1px solid white;
+}
+.top-bar-links ul li:last-child{
+    border: 0;
+}
+
+.site-search{
+    padding: 0 10px;
+    margin: 15px;
+    float: right;
+    background: white;
+    border-radius: 10px;
+}
+.site-search input{
+
+    border: 0;
+}
+.site-search button{
+    
+    background: url(../potos/index.png);
+    border: 0;
+}
